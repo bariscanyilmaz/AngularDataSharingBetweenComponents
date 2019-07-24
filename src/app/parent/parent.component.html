@@ -1,0 +1,10 @@
+<div class="container">
+  
+  <div class="d-flex justify-content-center align-items-center flex-column ">
+    <div class="text-center w-120">
+      {{count}}
+    </div>
+    <app-child [message]="'Sayıyı artır'" (increment)="onIncrement($event)"></app-child>
+  </div>
+
+</div>
